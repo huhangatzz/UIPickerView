@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>code</key>
+		<string>ZHN</string>
+		<key>id</key>
+		<string>10001</string>
+		<key>name</key>
+		<string>中国(大陆)</string>
+		<key>state</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>HK   </string>
+		<key>id</key>
+		<string>10002</string>
+		<key>name</key>
+		<string>中国香港</string>
+		<key>state</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>MO   </string>
+		<key>id</key>
+		<string>10003</string>
+		<key>name</key>
+		<string>中国澳门</string>
+		<key>state</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>TW   </string>
+		<key>id</key>
+		<string>10004</string>
+		<key>name</key>
+		<string>中国台湾</string>
+		<key>state</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>OTHER</string>
+		<key>id</key>
+		<string>10005</string>
+		<key>name</key>
+		<string>其他国家</string>
+		<key>state</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>

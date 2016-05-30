@@ -10,10 +10,16 @@
 		451133181CAE0F6A003AE249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 451133171CAE0F6A003AE249 /* main.m */; };
 		4511331B1CAE0F6A003AE249 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511331A1CAE0F6A003AE249 /* AppDelegate.m */; };
 		4511331E1CAE0F6A003AE249 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511331D1CAE0F6A003AE249 /* ViewController.m */; };
-		451133211CAE0F6A003AE249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4511331F1CAE0F6A003AE249 /* Main.storyboard */; };
 		451133231CAE0F6A003AE249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451133221CAE0F6A003AE249 /* Assets.xcassets */; };
 		451133261CAE0F6A003AE249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451133241CAE0F6A003AE249 /* LaunchScreen.storyboard */; };
 		451133311CAE0F6A003AE249 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 451133301CAE0F6A003AE249 /* _______Tests.m */; };
+		4511333F1CAE1003003AE249 /* Nation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4511333E1CAE1003003AE249 /* Nation.plist */; };
+		451133411CAE100C003AE249 /* Province.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451133401CAE100C003AE249 /* Province.plist */; };
+		451133431CAE1012003AE249 /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451133421CAE1012003AE249 /* City.plist */; };
+		451133451CAE101A003AE249 /* County.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451133441CAE101A003AE249 /* County.plist */; };
+		451133481CAE1101003AE249 /* AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 451133471CAE1101003AE249 /* AddressPickerView.m */; };
+		4511334A1CAE21A6003AE249 /* AddressPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451133491CAE21A6003AE249 /* AddressPickerView.xib */; };
+		4511334D1CAE526B003AE249 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511334C1CAE526B003AE249 /* AddressModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +39,21 @@
 		4511331A1CAE0F6A003AE249 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4511331C1CAE0F6A003AE249 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4511331D1CAE0F6A003AE249 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		451133201CAE0F6A003AE249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		451133221CAE0F6A003AE249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451133251CAE0F6A003AE249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451133271CAE0F6A003AE249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4511332C1CAE0F6A003AE249 /* 简单地址选择器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "简单地址选择器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		451133301CAE0F6A003AE249 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
 		451133321CAE0F6A003AE249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4511333E1CAE1003003AE249 /* Nation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Nation.plist; sourceTree = "<group>"; };
+		451133401CAE100C003AE249 /* Province.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Province.plist; sourceTree = "<group>"; };
+		451133421CAE1012003AE249 /* City.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		451133441CAE101A003AE249 /* County.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = County.plist; sourceTree = "<group>"; };
+		451133461CAE1101003AE249 /* AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickerView.h; sourceTree = "<group>"; };
+		451133471CAE1101003AE249 /* AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickerView.m; sourceTree = "<group>"; };
+		451133491CAE21A6003AE249 /* AddressPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressPickerView.xib; sourceTree = "<group>"; };
+		4511334B1CAE526B003AE249 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		4511334C1CAE526B003AE249 /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +99,11 @@
 				4511331A1CAE0F6A003AE249 /* AppDelegate.m */,
 				4511331C1CAE0F6A003AE249 /* ViewController.h */,
 				4511331D1CAE0F6A003AE249 /* ViewController.m */,
-				4511331F1CAE0F6A003AE249 /* Main.storyboard */,
-				451133221CAE0F6A003AE249 /* Assets.xcassets */,
-				451133241CAE0F6A003AE249 /* LaunchScreen.storyboard */,
-				451133271CAE0F6A003AE249 /* Info.plist */,
+				451133461CAE1101003AE249 /* AddressPickerView.h */,
+				451133471CAE1101003AE249 /* AddressPickerView.m */,
+				451133491CAE21A6003AE249 /* AddressPickerView.xib */,
+				4511334B1CAE526B003AE249 /* AddressModel.h */,
+				4511334C1CAE526B003AE249 /* AddressModel.m */,
 				451133161CAE0F6A003AE249 /* Supporting Files */,
 			);
 			path = "简单地址选择器";
@@ -97,6 +112,13 @@
 		451133161CAE0F6A003AE249 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4511333E1CAE1003003AE249 /* Nation.plist */,
+				451133401CAE100C003AE249 /* Province.plist */,
+				451133421CAE1012003AE249 /* City.plist */,
+				451133441CAE101A003AE249 /* County.plist */,
+				451133221CAE0F6A003AE249 /* Assets.xcassets */,
+				451133241CAE0F6A003AE249 /* LaunchScreen.storyboard */,
+				451133271CAE0F6A003AE249 /* Info.plist */,
 				451133171CAE0F6A003AE249 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -192,8 +214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				451133261CAE0F6A003AE249 /* LaunchScreen.storyboard in Resources */,
+				451133431CAE1012003AE249 /* City.plist in Resources */,
+				451133451CAE101A003AE249 /* County.plist in Resources */,
+				4511333F1CAE1003003AE249 /* Nation.plist in Resources */,
+				451133411CAE100C003AE249 /* Province.plist in Resources */,
 				451133231CAE0F6A003AE249 /* Assets.xcassets in Resources */,
-				451133211CAE0F6A003AE249 /* Main.storyboard in Resources */,
+				4511334A1CAE21A6003AE249 /* AddressPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4511334D1CAE526B003AE249 /* AddressModel.m in Sources */,
 				4511331E1CAE0F6A003AE249 /* ViewController.m in Sources */,
+				451133481CAE1101003AE249 /* AddressPickerView.m in Sources */,
 				4511331B1CAE0F6A003AE249 /* AppDelegate.m in Sources */,
 				451133181CAE0F6A003AE249 /* main.m in Sources */,
 			);
@@ -236,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4511331F1CAE0F6A003AE249 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				451133201CAE0F6A003AE249 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		451133241CAE0F6A003AE249 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

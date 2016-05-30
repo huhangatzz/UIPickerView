@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AddressPickerView">
+            <rect key="frame" x="0.0" y="0.0" width="533" height="346"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6YP-xe-Hp7">
+                    <rect key="frame" x="0.0" y="306" width="533" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ra6-Ue-MkG">
+                            <rect key="frame" x="0.0" y="0.0" width="267" height="40"/>
+                            <color key="backgroundColor" red="0.67843137249999996" green="0.67843137249999996" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="back" destination="iN0-l3-epB" eventType="touchUpInside" id="DD3-Zl-W3D"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvz-vS-fU1">
+                            <rect key="frame" x="267" y="0.0" width="267" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sureAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="bHR-9e-Ee2"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Ra6-Ue-MkG" secondAttribute="bottom" id="Iza-iz-aNs"/>
+                        <constraint firstAttribute="bottom" secondItem="lvz-vS-fU1" secondAttribute="bottom" id="PBY-Iv-gOt"/>
+                        <constraint firstItem="Ra6-Ue-MkG" firstAttribute="leading" secondItem="6YP-xe-Hp7" secondAttribute="leading" id="QR7-Vk-5TH"/>
+                        <constraint firstItem="Ra6-Ue-MkG" firstAttribute="height" secondItem="6YP-xe-Hp7" secondAttribute="height" id="RI1-9T-TQT"/>
+                        <constraint firstItem="lvz-vS-fU1" firstAttribute="width" secondItem="Ra6-Ue-MkG" secondAttribute="width" id="Tmh-JI-wPr"/>
+                        <constraint firstItem="lvz-vS-fU1" firstAttribute="leading" secondItem="Ra6-Ue-MkG" secondAttribute="trailing" id="VK4-1m-UKi"/>
+                        <constraint firstItem="lvz-vS-fU1" firstAttribute="height" secondItem="Ra6-Ue-MkG" secondAttribute="height" id="XDV-HM-Wq4"/>
+                        <constraint firstItem="Ra6-Ue-MkG" firstAttribute="width" secondItem="6YP-xe-Hp7" secondAttribute="width" multiplier="0.5" id="hBa-2J-cxN"/>
+                        <constraint firstAttribute="height" constant="40" id="tOY-98-peM"/>
+                    </constraints>
+                </view>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3q6-q6-OtD">
+                    <rect key="frame" x="0.0" y="0.0" width="533" height="306"/>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6YP-xe-Hp7" secondAttribute="trailing" id="1hz-2J-Acc"/>
+                <constraint firstItem="3q6-q6-OtD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9eY-dn-DY4"/>
+                <constraint firstItem="3q6-q6-OtD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="G9z-hc-5eS"/>
+                <constraint firstAttribute="trailing" secondItem="3q6-q6-OtD" secondAttribute="trailing" id="ioO-cD-VcZ"/>
+                <constraint firstItem="6YP-xe-Hp7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mF1-zu-nrb"/>
+                <constraint firstAttribute="bottom" secondItem="6YP-xe-Hp7" secondAttribute="bottom" id="ozg-Wm-6mc"/>
+                <constraint firstItem="6YP-xe-Hp7" firstAttribute="top" secondItem="3q6-q6-OtD" secondAttribute="bottom" id="pKv-Rk-qi1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pickerView" destination="3q6-q6-OtD" id="kaa-VI-fRY"/>
+            </connections>
+            <point key="canvasLocation" x="370.5" y="388"/>
+        </view>
+    </objects>
+</document>

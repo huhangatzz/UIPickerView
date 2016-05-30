@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "AddressPickerView.h"
 @interface ViewController ()
+
+@property (nonatomic,strong)AddressPickerView *pickerView;
 
 @end
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.pickerView = [AddressPickerView picerView];
+    [self.view addSubview:self.pickerView];
 }
 
 - (void)didReceiveMemoryWarning {
